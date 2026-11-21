@@ -1,0 +1,48 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Emojile</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="game-container">
+
+        <h1>🎮 Emojile</h1>
+
+        <p class="subtitle">Can you guess what the emojis mean?</p>
+
+        <div class="game-box">
+
+            <h2>Guess the Puzzle</h2>
+
+            <div id="emoji-display">
+                🦁 👑 🌅
+            </div>
+
+            <input
+                type="text"
+                id="answer-input"
+                placeholder="Enter your guess..."
+            >
+
+            <button id="submit-button">Submit Answer</button>
+
+            <p id="message"></p>
+
+        </div>
+
+        <div class="stats">
+            <p>Score: <span id="score">0</span></p>
+        </div>
+
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
