@@ -1,4 +1,3 @@
-
 #ifndef PUZZLE_H
 #define PUZZLE_H
 
@@ -11,6 +10,7 @@ private:
     std::string answer;
     std::string difficulty;
     std::string hint;
+    int revealedEmojis;
 
 public:
     Puzzle(std::vector<std::string> e,
